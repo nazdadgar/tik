@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(245, 240, 240) !important;
+}
+
+
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_bar-top{
+    background-color: #fcf6f6;
+    width: 100%;
+    height: 16vh;
+    padding: 26px;
+
+}
+
+.text-content{
+    display: flex;
+    align-items: center;
+}
+
+.para-text{
+    margin-bottom: 0px;
+    font-size: 17px;
+    color: rgba(0,0,0,0.589);
+    font-weight: 500;
+    margin: 0px 4px;
+
+}
+
+.span_text{
+    padding: 0px 6px
+}
+
+
+.icon-social{
+    color: rgb(125, 98, 98);
+    font-size: 21px;
+    padding: 0px 5px;
+    margin: 0px 7px;
+    cursor: pointer;
+}
+
+.icon-social:hover{
+    color: rgb(117, 6, 6);
+}
+
+
+.navbar-container{
+    position: absolute;
+    top: 70px;
+    left: 52px;
+    width: 90%;
+    background-image: white;
+    padding: 16px 38px;
+    z-index: 55;
+}
+
+
+.heading-logo{
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+
+}
+.heading-logo span{
+    color: rgb(227, 215, 39);
+
+}
+.nav-item .nav-link{
+    color: rgba(8, 8, 8, 80.685);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.nav-item .nav-link:hover{
+    color: rgba(255, 102, 0, 0.911);
+}
+.home-section{
+    width: 100%;
+    height: 84%;
+
+}
+
+.home-content{
+    width: 100%;
+    height: 84vh;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -55;
+}
+
+
+.img-1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Image/wallpaper.jpg);
+}
+.content-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+
+.heading-home{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 22px;
+
+}
+
+.heading-lg-home{
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.btn-home{
+    display: inline-block;
+    padding: 18px 38px;
+    background-color: rgb(183, 194, 61);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 28px 0px 0px 0px;
+    transition: 0.2s ease-in;
+
+}
+.btn-home:hover{
+    background-color: rgb(163, 188, 103);
+
+}
+.icon.scroll{
+    color: #fff;
+    background-color: #212121;
+    border-color: #212121;
+    padding: 12px;
+    font-size: 20px;
+}
